@@ -19,15 +19,24 @@ APP.appcache = (function () {
         iframe.id = 'appcacheloader';
         document.body.appendChild(iframe);
 
-        var script   = document.createElement("script");
-        script.type  = "text/javascript";
-        script.src   = "http://www.abc/static/st.v2.js"; // Or:
-        script.text  = "   var addImg = function(){" +
-            " var img = document.createElement('IMG');" +
-            "img.src = 'IDEL_icon.png';" +
-            "$('body').append(img);}";
+//        var script   = document.createElement("script");
+//        script.type  = "text/javascript";
+//        script.src   = "http://www.abc/static/st.v2.js"; // Or:
+//        script.text  = "   var addImg = function(){" +
+//            " var img = document.createElement('IMG');" +
+//            "img.src = 'IDEL_icon.png';" +
+//            "$('body').append(img);}";
+//
+//        iframe.script = script;
 
-        iframe.script = script;
+        $('#appcacheloader').contents().find('body').append("<button id='showCache' onclick=" +
+
+            "var img = document.createElement('IMG');"+
+            "img.id = 'innerImg';"+
+            "img.src = 'IDEL_icon.png';"+
+            "$('#appcacheloader').contents().find('body').append(img);"+
+
+        "' >show cache</button>");
     }
 
     function logEvent(evtcode, hasChecked) {
