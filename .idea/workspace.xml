@@ -11,7 +11,7 @@
     <file path="/index.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373540680906" ignored="false" />
     <file path="/offline.manifest" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537629165" ignored="false" />
     <file path="/manifest.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537921424" ignored="false" />
-    <file path="/appcache.js" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373541919117" ignored="false" />
+    <file path="/appcache.js" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373542608719" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="appcache.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appcache.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="32" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.6892382">
+            <state line="27" column="0" selection-start="922" selection-end="922" vertical-scroll-proportion="0.32648125">
               <folding />
             </state>
           </provider>
@@ -277,7 +277,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appcache.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="32" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.6892382">
+        <state line="27" column="0" selection-start="922" selection-end="922" vertical-scroll-proportion="0.32648125">
           <folding />
         </state>
       </provider>
