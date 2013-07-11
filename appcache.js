@@ -43,15 +43,15 @@ APP.appcache = (function () {
     }
 
     function start() {
-//        if (offlineEnabled !== true && offlineEnabled !== false) {
-////            offlineEnabled = requestOffline();
-////            if (offlineEnabled) {
-//                localStorage.offlineEnabled = true;
-////            }
-//        }
-//        if (offlineEnabled === true) {
+        if (offlineEnabled !== true && offlineEnabled !== false) {
+            offlineEnabled = requestOffline();
+            if (offlineEnabled) {
+                localStorage.offlineEnabled = true;
+            }
+        }
+        if (offlineEnabled === true) {
             innerLoad();
-//        }
+        }
     }
 
     // If offline mode already enabled, run innerLoad
