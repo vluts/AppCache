@@ -19,11 +19,11 @@ APP.appcache = (function () {
         iframe.id = 'appcacheloader';
         document.body.appendChild(iframe);
 
-        var script   = document.createElement("script");
-        script.type  = "text/javascript";
-        script.text  = "var addImg = function(){ var img = document.createElement('IMG'); img.src = 'IDEL_icon.png'; $('body').append(img);}";
-
-        iframe.script = script;
+//        var script   = document.createElement("script");
+//        script.type  = "text/javascript";
+//        script.text  = "var addImg = function(){ var img = document.createElement('IMG'); img.src = 'IDEL_icon.png'; $('body').append(img);}";
+//
+//        iframe.script = script;
 
         $('#appcacheloader').contents().find('body').append("<button id='showCache' onclick='addImg();' >show cache</button>");
     }

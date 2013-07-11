@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2330289-09d5-4c7a-96f8-ce35f2aa3032" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcache.js" afterPath="$PROJECT_DIR$/appcache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.html" afterPath="$PROJECT_DIR$/manifest.html" />
     </list>
     <ignored path="AppCache.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,7 +11,7 @@
     <file path="$PROJECT_DIR$/../web-assessment/node_modules/web-assessment-common/built/common.js" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373533882440" ignored="false" />
     <file path="/index.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373540680906" ignored="false" />
     <file path="/offline.manifest" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537629165" ignored="false" />
-    <file path="/manifest.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537921424" ignored="false" />
+    <file path="/manifest.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373542962211" ignored="false" />
     <file path="/appcache.js" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373542608719" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,19 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appcache.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="appcache.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appcache.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="142" selection-start="844" selection-end="844" vertical-scroll-proportion="0.25392985">
+            <state line="27" column="8" selection-start="897" selection-end="1016" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="manifest.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manifest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="35" selection-start="1197" selection-end="1216" vertical-scroll-proportion="-6.6">
+            <state line="43" column="58" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.85771275">
               <folding />
             </state>
           </provider>
@@ -86,9 +87,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/offline.manifest" />
-        <option value="$PROJECT_DIR$/manifest.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/appcache.js" />
+        <option value="$PROJECT_DIR$/manifest.html" />
       </list>
     </option>
   </component>
@@ -254,13 +255,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manifest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="1197" selection-end="1216" vertical-scroll-proportion="-6.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/offline.manifest">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="16" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
@@ -277,7 +271,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appcache.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="142" selection-start="844" selection-end="844" vertical-scroll-proportion="0.25392985">
+        <state line="27" column="8" selection-start="897" selection-end="1016" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="58" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.85771275">
           <folding />
         </state>
       </provider>

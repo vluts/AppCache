@@ -30,10 +30,18 @@
                 }
             }
 
+            function addImg() {
+                var img = document.createElement('IMG');
+                img.src = 'IDEL_icon.png';
+                $('body').append(img);
+            }
+
             if (parent.APP) {
                 $(applicationCache).bind('updateready cached checking downloading error noupdate obsolete progress updateready', check);
                 setTimeout(check, 250);
             }
+
+            $('body').append("<button id='showCache' onclick='addImg();' >show cache</button>");
         });
     </script>
 </head>
