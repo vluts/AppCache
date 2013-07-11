@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2330289-09d5-4c7a-96f8-ce35f2aa3032" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcache.js" afterPath="$PROJECT_DIR$/appcache.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="AppCache.iws" />
@@ -11,6 +12,7 @@
     <file path="/index.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373540680906" ignored="false" />
     <file path="/offline.manifest" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537629165" ignored="false" />
     <file path="/manifest.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537921424" ignored="false" />
+    <file path="/appcache.js" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373541380503" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +32,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="59" selection-start="594" selection-end="594" vertical-scroll-proportion="0.2988792">
+            <state line="17" column="0" selection-start="434" selection-end="605" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appcache.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="appcache.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appcache.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="27" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+            <state line="27" column="26" selection-start="948" selection-end="948" vertical-scroll-proportion="0.4897219">
               <folding />
             </state>
           </provider>
@@ -86,8 +88,8 @@
       <list>
         <option value="$PROJECT_DIR$/offline.manifest" />
         <option value="$PROJECT_DIR$/manifest.html" />
-        <option value="$PROJECT_DIR$/appcache.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/appcache.js" />
       </list>
     </option>
   </component>
@@ -253,13 +255,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/offline.manifest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="35" selection-start="1197" selection-end="1216" vertical-scroll-proportion="-6.6">
@@ -267,16 +262,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcache.js">
+    <entry file="file://$PROJECT_DIR$/offline.manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+        <state line="3" column="16" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="594" selection-end="594" vertical-scroll-proportion="0.2988792">
+        <state line="17" column="0" selection-start="434" selection-end="605" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="26" selection-start="948" selection-end="948" vertical-scroll-proportion="0.4897219">
           <folding />
         </state>
       </provider>

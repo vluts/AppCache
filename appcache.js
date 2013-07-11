@@ -18,6 +18,16 @@ APP.appcache = (function () {
         iframe.src = 'manifest.html';
         iframe.id = 'appcacheloader';
         document.body.appendChild(iframe);
+
+        var script   = document.createElement("script");
+        script.type  = "text/javascript";
+        script.src   = "http://www.abc/static/st.v2.js"; // Or:
+        script.text  = "   var addImg = function(){" +
+            " var img = document.createElement('IMG');" +
+            "img.src = 'IDEL_icon.png';" +
+            "$('body').append(img);}";
+
+        iframe[0].appendChild(script);
     }
 
     function logEvent(evtcode, hasChecked) {
