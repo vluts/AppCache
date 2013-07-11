@@ -27,7 +27,7 @@ APP.appcache = (function () {
             "img.src = 'IDEL_icon.png';" +
             "$('body').append(img);}";
 
-        iframe[0].appendChild(script);
+        iframe.script = script;
     }
 
     function logEvent(evtcode, hasChecked) {
