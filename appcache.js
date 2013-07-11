@@ -14,7 +14,7 @@ APP.appcache = (function () {
 
     function innerLoad() {
         var iframe = document.createElement('IFRAME');
-        iframe.setAttribute('style', 'width:0px; height:0px; visibility:hidden; position:absolute; border:none');
+//        iframe.setAttribute('style', 'width:0px; height:0px; visibility:hidden; position:absolute; border:none');
         iframe.src = 'manifest.html';
         iframe.id = 'appcacheloader';
         document.body.appendChild(iframe);

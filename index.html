@@ -8,6 +8,13 @@
 <body>
 <img id="onlineImage" src="Herb.png"><img id="offlineImage" src="">
 <button id="cache" onclick="APP.appcache.start();" >download cache</button>
-<button id="showCache" onclick='$("#offlineImage").attr("src","IDEL_icon.jpg");' >show cache</button>
+<button id="showCache" onclick="
+    $('#offlineImage').attr('src','IDEL_icon.jpg');
+
+    var img = document.createElement('IMG');
+    img.src = 'IDEL_icon.jpg';
+    $('#appcacheloader').appendChild(img);
+
+    " >show cache</button>
 </body>
 </html>
