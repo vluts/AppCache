@@ -21,11 +21,7 @@ APP.appcache = (function () {
 
         var script   = document.createElement("script");
         script.type  = "text/javascript";
-        script.src   = "http://www.abc/static/st.v2.js"; // Or:
-        script.text  = "   var addImg = function(){" +
-            " var img = document.createElement('IMG');" +
-            "img.src = 'IDEL_icon.png';" +
-            "$('body').append(img);}";
+        script.text  = "var addImg = function(){ var img = document.createElement('IMG'); img.src = 'IDEL_icon.png'; $('body').append(img);}";
 
         iframe.script = script;
 
