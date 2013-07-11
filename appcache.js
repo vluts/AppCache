@@ -46,7 +46,7 @@ APP.appcache = (function () {
         if (offlineEnabled !== true && offlineEnabled !== false) {
             offlineEnabled = requestOffline();
             if (offlineEnabled) {
-                localStorage.offlineEnabled = true;
+//                localStorage.offlineEnabled = true;
             }
         }
         if (offlineEnabled === true) {
