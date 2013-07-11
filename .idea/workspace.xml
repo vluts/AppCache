@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373533882126" ignored="false" />
     <file path="$PROJECT_DIR$/../web-assessment/node_modules/web-assessment-common/built/common.js" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373533882440" ignored="false" />
-    <file path="/index.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373539986001" ignored="false" />
+    <file path="/index.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373540328008" ignored="false" />
     <file path="/offline.manifest" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537629165" ignored="false" />
     <file path="/manifest.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537921424" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="31" selection-start="548" selection-end="548" vertical-scroll-proportion="0.2988792">
+            <state line="17" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.31755915">
               <folding />
             </state>
           </provider>
@@ -51,7 +51,7 @@
       <file leaf-file-name="manifest.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="55" selection-start="909" selection-end="909" vertical-scroll-proportion="-4.6">
+            <state line="33" column="35" selection-start="1197" selection-end="1216" vertical-scroll-proportion="-6.6">
               <folding />
             </state>
           </provider>
@@ -60,7 +60,7 @@
       <file leaf-file-name="offline.manifest" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/offline.manifest">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+            <state line="3" column="16" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -255,14 +255,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/offline.manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="3" column="16" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="909" selection-end="909" vertical-scroll-proportion="-4.6">
+        <state line="33" column="35" selection-start="1197" selection-end="1216" vertical-scroll-proportion="-6.6">
           <folding />
         </state>
       </provider>
@@ -276,7 +276,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="548" selection-end="548" vertical-scroll-proportion="0.2988792">
+        <state line="17" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.31755915">
           <folding />
         </state>
       </provider>

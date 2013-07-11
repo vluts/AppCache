@@ -12,8 +12,9 @@
     $('#offlineImage').attr('src','IDEL_icon.jpg');
 
     var img = document.createElement('IMG');
+    img.id = 'innerImg';
     img.src = 'IDEL_icon.jpg';
-    $('#appcacheloader').append(img);
+    $('#appcacheloader').contents().find('body').append(img);
 
     " >show cache</button>
 </body>
