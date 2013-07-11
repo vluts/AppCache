@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iFrame hack</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="appcache.js"></script>
+</head>
+<body>
+<img id="onlineImage" src="Herb.png"><img id="offlineImage" src="">
+<button id="cache" onclick="APP.appcache.start();" >download cache</button>
+<button id="showCache" onclick='$("#offlineImage").attr("src","IDEL_icon.jpg");' >show cache</button>
+</body>
+</html>
