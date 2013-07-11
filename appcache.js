@@ -25,7 +25,7 @@ APP.appcache = (function () {
 //
 //        iframe.script = script;
 
-        $('#appcacheloader').contents().find('body').append("<button id='showCache' onclick='addImg();' >show cache</button>");
+//        $('#appcacheloader').contents().find('body').append("<button id='showCache' onclick='addImg();' >show cache</button>");
     }
 
     function logEvent(evtcode, hasChecked) {
