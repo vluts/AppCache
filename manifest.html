@@ -41,7 +41,11 @@
                 setTimeout(check, 250);
             }
 
-            $('body').append("<button id='showCache' onclick='addImg();' >show cache</button>");
+            var btn=document.createElement("BUTTON");
+            var t=document.createTextNode("CLICK ME");
+            btn.appendChild(t);
+            btn.onclick = addImg;
+            $('body').append(btn);
         });
     </script>
 </head>
