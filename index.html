@@ -9,12 +9,12 @@
 <img id="onlineImage" src="Herb.png"><img id="offlineImage" src="">
 <button id="cache" onclick="APP.appcache.start();" >download cache</button>
 <button id="showCache" onclick="
-    $('#offlineImage').attr('src','IDEL_icon.jpg');
+    $('#offlineImage').attr('src','IDEL_icon.png');
 
     var img = document.createElement('IMG');
     img.id = 'innerImg';
     img.src = 'IDEL_icon.jpg';
-    $('#appcacheloader').contents().find('body').append(img);
+    $('#appcacheloader').contents().find('body').append('<img src=>');
 
     " >show cache</button>
 </body>
