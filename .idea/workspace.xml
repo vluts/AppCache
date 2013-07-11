@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2330289-09d5-4c7a-96f8-ce35f2aa3032" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcache.js" afterPath="$PROJECT_DIR$/appcache.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.html" afterPath="$PROJECT_DIR$/manifest.html" />
     </list>
     <ignored path="AppCache.iws" />
@@ -11,7 +10,7 @@
     <file path="$PROJECT_DIR$/../web-assessment/node_modules/web-assessment-common/built/common.js" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373533882440" ignored="false" />
     <file path="/index.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373540680906" ignored="false" />
     <file path="/offline.manifest" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373537629165" ignored="false" />
-    <file path="/manifest.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373542962211" ignored="false" />
+    <file path="/manifest.html" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373543325073" ignored="false" />
     <file path="/appcache.js" changelist="d2330289-09d5-4c7a-96f8-ce35f2aa3032" time="1373542608719" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <file leaf-file-name="manifest.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manifest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="58" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.85771275">
+            <state line="32" column="25" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.5611702">
               <folding />
             </state>
           </provider>
@@ -278,7 +277,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="58" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.85771275">
+        <state line="32" column="25" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.5611702">
           <folding />
         </state>
       </provider>
