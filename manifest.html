@@ -36,9 +36,6 @@
                 $('body').append(img);
             }
 
-            var getImgData = function () {
-                return true;
-            }
 
             if (parent.APP) {
                 $(applicationCache).bind('updateready cached checking downloading error noupdate obsolete progress updateready', check);
@@ -51,6 +48,10 @@
             btn.onclick = addImg;
             $('body').append(btn);
         });
+        var getImgData = function () {
+            return true;
+        }
+
     </script>
 </head>
 <body></body>
