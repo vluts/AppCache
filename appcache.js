@@ -63,7 +63,7 @@ APP.appcache = (function () {
 //    img.src = 'IDEL_icon.png';
 //    $('#appcacheloader').contents().find('body').append(img);
 
-        $('#appcacheloader')[0].contentWindow.getImgData();
+        $('#appcacheloader')[0].contentWindow.doAnAjax('IDEL_icon.png');
 
     }
 

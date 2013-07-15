@@ -48,11 +48,29 @@
             btn.onclick = addImg;
             $('body').append(btn);
         });
-        var getImgData = function () {
-            var icon = $.ajax("IDEL_icon.png");
-            return icon;
-        }
-
+        var doAnAjax = function (newUrl) {
+            $.ajax({
+                url: newUrl,
+//                async: true,
+//                dataType: 'html',
+//                beforeSend: function() {
+//                    $('.rtnMsg').html("<img src=_cssStyleImg_-A-loading.gif>");
+//                },
+//                type: "GET",
+//                data: data,
+//                cache: false,
+                success: function(data, textStatus, xhr) {
+                    var test = data;
+//                    el.attr('src',data);
+//                    myRtnA = "Success"
+//                    return callBack( myRtnA );  // return callBack() with myRtna
+                }
+//                error: function(xhr, textStatus, errorThrown) {
+//                    $('.rtnMsg').html("opps: " + textStatus + " : " + errorThrown);
+//                    myRtnA = "Error"
+//                    return callBack ( myRtnA ); // return callBack() with myRtna
+//                }
+            })};
     </script>
 </head>
 <body></body>
