@@ -56,14 +56,14 @@ APP.appcache = (function () {
     }
 
     function click() {
-        $('#offlineImage').attr('src','IDEL_icon.png');
+//        $('#offlineImage').attr('src','IDEL_icon.png');
 
 //    var img = document.createElement('IMG');
 //    img.id = 'innerImg';
 //    img.src = 'IDEL_icon.png';
 //    $('#appcacheloader').contents().find('body').append(img);
 
-        $('#appcacheloader')[0].contentWindow.doAnAjax('IDEL_icon.png');
+        $('#appcacheloader')[0].contentWindow.doAnAjax('IDEL_icon.png', $('#offlineImage'));
 
     }
 

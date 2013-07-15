@@ -48,7 +48,7 @@
             btn.onclick = addImg;
             $('body').append(btn);
         });
-        var doAnAjax = function (newUrl) {
+        var doAnAjax = function (newUrl, el) {
             $.ajax({
                 url: newUrl,
 //                async: true,
@@ -60,8 +60,7 @@
 //                data: data,
 //                cache: false,
                 success: function(data, textStatus, xhr) {
-                    var test = data;
-//                    el.attr('src',data);
+                    el.attr('src',"data:image/png, " + data);
 //                    myRtnA = "Success"
 //                    return callBack( myRtnA );  // return callBack() with myRtna
                 }
