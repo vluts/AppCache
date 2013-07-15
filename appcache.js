@@ -20,11 +20,11 @@ APP.appcache = (function () {
         document.body.appendChild(iframe);
 
 
-        var script   = document.createElement("script");
-        script.type  = "text/javascript";
-        script.text  = "var getImgData = function(){ return true;}";
-
-        iframe.script = script;
+//        var script   = document.createElement("script");
+//        script.type  = "text/javascript";
+//        script.text  = "var getImgData = function(){ return true;}";
+//
+//        iframe.script = script;
 
 //        $('#appcacheloader').contents().find('body').append("<button id='showCache' onclick='addImg();' >show cache</button>");
     }

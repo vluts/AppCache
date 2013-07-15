@@ -36,6 +36,10 @@
                 $('body').append(img);
             }
 
+            var getImgData = function () {
+                return true;
+            }
+
             if (parent.APP) {
                 $(applicationCache).bind('updateready cached checking downloading error noupdate obsolete progress updateready', check);
                 setTimeout(check, 250);
