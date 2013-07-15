@@ -18,15 +18,6 @@ APP.appcache = (function () {
         iframe.src = 'manifest.html';
         iframe.id = 'appcacheloader';
         document.body.appendChild(iframe);
-
-
-//        var script   = document.createElement("script");
-//        script.type  = "text/javascript";
-//        script.text  = "var getImgData = function(){ return true;}";
-//
-//        iframe.script = script;
-
-//        $('#appcacheloader').contents().find('body').append("<button id='showCache' onclick='addImg();' >show cache</button>");
     }
 
     function logEvent(evtcode, hasChecked) {
@@ -56,14 +47,7 @@ APP.appcache = (function () {
     }
 
     function click() {
-//        $('#offlineImage').attr('src','IDEL_icon.png');
-
-//    var img = document.createElement('IMG');
-//    img.id = 'innerImg';
-//    img.src = 'IDEL_icon.png';
-//    $('#appcacheloader').contents().find('body').append(img);
-
-        $('#appcacheloader')[0].contentWindow.addBase64ImageByUrl('Assets_written.png', $('#offlineImage'));
+        $('#appcacheloader')[0].contentWindow.renderImageFromIframeCache('Assets_written.png', $('#offlineImage'));
 
     }
 

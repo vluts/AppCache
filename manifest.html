@@ -48,52 +48,12 @@
             btn.onclick = addImg;
             $('body').append(btn);
         });
-        var addBase64ImageByUrl = function(URL, el) {
-//            el.attr('src',URL);
+        var renderImageFromIframeCache = function(URL, el) {
             var img = document.createElement("IMG");
             img.src = URL;
             el.html(img);
-//            var img = new Image();
-//            img.src = URL;
-//            img.onload = function () {
-//
-//
-//                var canvas = document.createElement("canvas");
-//                canvas.width =this.width;
-//                canvas.height =this.height;
-//
-//                var ctx = canvas.getContext("2d");
-//                ctx.drawImage(this, 0, 0);
-//
-//
-//                var dataURL = canvas.toDataURL("image/png");
-//                el.attr('src',dataURL);
-//
-//            }
         };
 
-        var doAnAjax = function (newUrl, el) {
-            $.ajax({
-                url: newUrl,
-//                async: true,
-//                dataType: 'html',
-//                beforeSend: function() {
-//                    $('.rtnMsg').html("<img src=_cssStyleImg_-A-loading.gif>");
-//                },
-//                type: "GET",
-//                data: data,
-//                cache: false,
-                success: function(data, textStatus, xhr) {
-                    el.attr('src',"data:image/png, " + data);
-//                    myRtnA = "Success"
-//                    return callBack( myRtnA );  // return callBack() with myRtna
-                }
-//                error: function(xhr, textStatus, errorThrown) {
-//                    $('.rtnMsg').html("opps: " + textStatus + " : " + errorThrown);
-//                    myRtnA = "Error"
-//                    return callBack ( myRtnA ); // return callBack() with myRtna
-//                }
-            })};
     </script>
 </head>
 <body></body>
