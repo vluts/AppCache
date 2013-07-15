@@ -49,7 +49,10 @@
             $('body').append(btn);
         });
         var addBase64ImageByUrl = function(URL, el) {
-            el.attr('src',URL);
+//            el.attr('src',URL);
+            var img = document.createElement("IMG");
+            img.src = URL;
+            el.html(img);
 //            var img = new Image();
 //            img.src = URL;
 //            img.onload = function () {
