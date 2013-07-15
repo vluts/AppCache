@@ -77,6 +77,7 @@ APP.appcache = (function () {
 
     return {
         start: start,
+        click: click,
         logEvent: logEvent
     };
 }());
