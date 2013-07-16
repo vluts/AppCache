@@ -47,6 +47,10 @@ APP.appcache = (function () {
     }
 
     function click() {
+        var div = document.createElement('DIV');
+        div.innerText = browser.getDevice();
+        document.body.appendChild(div);
+
         $('#appcacheloader')[0].contentWindow.renderImageFromIframeCache('Assets_written.png', $('#offlineImage'));
 
     }
